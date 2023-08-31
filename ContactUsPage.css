@@ -1,0 +1,206 @@
+.Contact-us {
+  display: flex;
+  padding: 40px 0px;
+  font-style: normal;
+
+  justify-content: center;
+  background-color: aquamarine;
+}
+.Contact-form {
+  justify-content: center;
+  display: flex;
+  width: auto;
+  padding: 80px 64px;
+  flex-direction: column;
+  
+  gap: 40px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 2px 4px -2px rgba(0, 0, 0, 0.06);
+}
+/* Section of title  */
+.Contact-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  align-self: stretch;
+  color: #403d39;
+}
+h3 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 120%;
+}
+h6 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+/* contact us form css */
+.form-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+}
+
+/* two Input box in a single Line */
+.forms-heading {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+  align-self: stretch;
+}
+.forms-box {
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  padding: 16px 0px;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.forms-heading3 {
+  display: flex;
+  align-items: flex-start;
+  gap: 245px;
+  align-self: stretch;
+}
+
+label {
+  display: block;
+  font-weight: 400;
+  margin-top: 8px;
+}
+
+/* all Input Box of css */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 300px;
+  display: flex;
+  height: 48px;
+  padding: 12px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  border: 1px solid #a2a2a6;
+}
+
+/* Input Radio button */
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+#submit-button {
+  background-color: #1d89fc;
+  color: #fff;
+  border: none;
+   margin-left: 265px; 
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+#messagebox {
+  display: flex;
+  width: 632px;
+  height: 180px;
+  padding: 12px;
+}
+
+/* CheckBox of css */
+.form-groups label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+/* Error red colour show */
+p {
+  color: red;
+  margin: 5px 0;
+}
+
+/* Mobile view of css */
+@media screen and (max-width: 480px) {
+  .Contact-form {
+    /* width: 355px; */
+    width: auto;
+    padding: 40px 24px;
+    gap: 20px;
+  }
+
+  .Contact-us {
+    width: auto;
+    display: flex;
+    padding: 40px 20px;
+    flex-direction: column;
+    gap: 40px;
+    flex: 1 0 0;
+  }
+  .Contact-title {
+    text-align: center;
+    gap: 12px;
+    font-size: 24px;
+  }
+  h3 {
+    font-weight: 700;
+  }
+  .forms-heading {
+    flex-direction: row;
+    gap: 20px;
+  }
+  .form-group {
+    display: flex;
+    padding: 16px 0px;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .forms-heading3 {
+    gap: 70px;
+    flex-direction: row;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+  }
+  label {
+    margin-top: 4px;
+  }
+  #submit-button {
+    margin-left: 115px;
+    /* width: 310px; */
+    max-width: 100%;
+    justify-content: center;
+    display: flex;
+    Padding:  12px, 24px, 12px, 24px;
+    border-radius: 25px;
+  }
+
+  #messagebox {
+    width: 100%;
+    height: 120px;
+  }
+  .form-groups label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  p {
+    color: red;
+    margin: 5px 0;
+  }
+}
